@@ -3,10 +3,10 @@
 This project implements a simple URL shortening service using Flask and SQLite. It provides CRUD (Create, Read, Update, Delete) operations for managing shortened URLs. The URLs are stored in a local SQLite database (`urls.db`).
 
 ## Features
-- **POST**: Shorten a URL.
-- **GET**: Retrieve the original URL from a shortened URL.
-- **PUT**: Update an existing shortened URL.
-- **DELETE**: Delete a shortened URL.
+- **POST**: Create URL, Shorten a URL.
+- **GET**:  Read URL, Retrieve the original URL from a shortened URL.
+- **PUT**: Update URL, Update an existing shortened URL.
+- **DELETE**: Delete URL, Delete a shortened URL.
 
 ## Requirements
 
