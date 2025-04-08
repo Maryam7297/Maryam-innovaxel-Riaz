@@ -5,6 +5,7 @@ def get_db():
     conn.row_factory = sqlite3.Row  # This allows access to rows by column name
     return conn
 
+# Creating table in the database
 def create_table():
     conn = get_db()
     cursor = conn.cursor()
