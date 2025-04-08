@@ -1,7 +1,9 @@
+#importing libraries
 from flask import Flask, request, jsonify, redirect
 import hashlib
 import sqlite3
 
+# flask app
 app = Flask(__name__)
 
 # Function to create a shortened URL (you can customize the logic as needed)
